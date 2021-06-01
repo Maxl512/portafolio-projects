@@ -651,3 +651,10 @@
         font-size: 17px;
     }
 }
+.input-container > input:focus, textarea:focus{
+    background:linear-gradient(to right, #c33, #200);
+    color: #fff;
+}
+.input-container > input:focus::placeholder, textarea:focus::placeholder{
+    color: #fff;
+}

@@ -56,21 +56,21 @@
     </div>
     <div id="contact-me" class="contact-me">
         <h2 class="contact-me__title">Contactame!</h2>
-        <form class="contact-me__form" action="#">
+        <form id="contact-form" class="contact-me__form" action="#">
             <div class="input-container">
                 <i class="fa fa-user"></i>
-                <input placeholder="Escribe tu nombre..." type="text">
+                <input id="contact-name" placeholder="Escribe tu nombre..." type="text">
             </div>
             <div class="input-container">
                 <i class="fa fa-envelope"></i>
-                <input placeholder="Escribe tu email..." type="email">
+                <input id="contact-email" placeholder="Escribe tu email..." type="email">
             </div>
             <div class="input-container">
                 <i id="message-icon" class="fa fa-envelope"></i>
-                <textarea placeholder="Escribe tu mensaje..." name="message" id="contact-message" ></textarea>
+                <textarea id="contact-message" placeholder="Escribe tu mensaje..." name="message" id="contact-message" ></textarea>
             </div>
             <div class="input-container">
-                <input value="Enviar" type="submit">
+                <input id="contact-button-submit" value="Enviar" type="submit">
             </div>
         </form>
         <div class="contact-me__image">
@@ -80,6 +80,7 @@
     <div class="thanks">
         <h2 class="thanks-title">¡Gracias por Visitar!</h2>
     </div>
+    <script src="js/contact-form.js"></script>
     <script src="js/pagination.js"></script>
 </body>
 </html>
