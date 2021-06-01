@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navigation">
+        <h1 class="navigation__title">Portafolio</h1>
+        <nav class="navigation-bar">
+            <a class="navigation-bar__link" href="#">Acerca de mi</a>
+            <a class="navigation-bar__link" href="#myProjects">Proyectos</a>
+            <a class="navigation-bar__link" href="#contact-me">Contactame</a>
+        </nav>
+    </div>
+    <div id="about-me" class="about-me">
+        <div class="about-me__myPhoto">
+            <img class="myPhoto" src="image/myPhoto.jpg" alt="myPhoto">
+        </div>
+        <div class="about-me__description">
+            <h2>Maximo Gomez</h2>
+            <h3>Conocimientos en HTML, CSS y Javascript</h3>
+            <p>Mi nombre es Maximo Gomez, tengo 17 años y estoy buscando trabajo como desarrollador web frontend. Me gusta mucho la tecnologia, la programacion se ha vuelto una de las cosas que mas tiempo y estudio le dedico, debido a que me encanta y quiero llegar a ser un gran Desarrollador web. Tengo 1 año de experiencia programando en los lenguajes HTML, CSS y Javascript.</p>
+        </div>
+    </div>
+    <div id="myProjects" class="myProjects">
+        <h2 class="myProjects__title">Mis Proyectos</h2>
+        <section class="myProjects__projects">
+            <article class="project">
+                <h3 class="project-name">Project name</h3>
+                <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur veniam fugiat labore nihil suscipit totam. Ea, molestiae rerum quibusdam reprehenderit vitae nostrum aperiam numquam laudantium, laborum possimus exercitationem dolores nobis.</p>
+                <a class="project-link" href="#">Ver Proyecto</a>
+                <a class="project-link" href="#">Ver Codigo</a>
+            </article>
+            <article class="project">
+                <h3 class="project-name">Project name</h3>
+                <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur veniam fugiat labore nihil suscipit totam. Ea, molestiae rerum quibusdam reprehenderit vitae nostrum aperiam numquam laudantium, laborum possimus exercitationem dolores nobis.</p>
+                <a class="project-link" href="#">Ver Proyecto</a>
+                <a class="project-link" href="#">Ver Codigo</a>
+            </article>
+        </section>
+        <div class="myProjects__navigator">
+            <nav class="navigator">
+                <button class="navigator-option">1</button>
+                <button class="navigator-option">2</button>
+                <button class="navigator-option">3</button>
+                <button class="navigator-option">4</button>
+                <button class="navigator-option">...</button>
+            </nav>
+        </div>
+    </div>
+    <div id="contact-me" class="contact-me">
+        <h2 class="contact-me__title">Contactame!</h2>
+        <form class="contact-me__form" action="#">
+            <div class="input-container">
+                <i class="fa fa-user">s</i>
+                <input placeholder="Escribe tu nombre..." type="text">
+            </div>
+            <div class="input-container">
+                <i class="fa fa-envelope">s</i>
+                <input placeholder="Escribe tu email..." type="email">
+            </div>
+            <div class="input-container">
+                <i id="message-icon" class="fa fa-envelope">s</i>
+                <textarea placeholder="Escribe tu mensaje..." name="message" id="contact-message" ></textarea>
+            </div>
+            <div class="input-container">
+                <input value="Enviar" type="submit">
+            </div>
+        </form>
+        <div class="contact-me__image">
+            <img src="image/envelope.png" alt="">
+        </div>
+    </div>
+    <div class="thanks">
+        <h2 class="thanks-title">¡Gracias por Visitar!</h2>
+    </div>
+</body>
+</html>
