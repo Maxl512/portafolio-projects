@@ -74,7 +74,6 @@ let projectsInfo = {
 
 };
 
-
 let firstProject = document.querySelector("#first-one-project");
 let firstProjectName = firstProject.firstElementChild;
 let firstProjectDescription = firstProjectName.nextElementSibling;
