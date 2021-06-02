@@ -658,3 +658,13 @@
 .input-container > input:focus::placeholder, textarea:focus::placeholder{
     color: #fff;
 }
+.cv{
+    display: inline-block;
+    background-color: #fff;
+    color: #c11;
+    text-decoration: none;
+    padding: 2vh 2vw;
+    margin: 0vh .4vw;
+    border: 3px solid #faa;
+    transition: border-radius .3s linear;
+}
