@@ -1,11 +1,13 @@
 let projectsInfo = {
     project01 : {
+        imgSrc : "image/dog.png",
         name: "Creador de animales",
         description : "Un formulario que le permite al usuario crear un animal a partir de ciertas opciones predeterminadas. Se utiliza un constructor para crear los objetos de cada animal, y estos son almacenados en un Array bi-dimensional.",
         projectUrl : "#",
         projectCode : "#"
     },
     project02 : {
+        imgSrc : "image/envelope.png",
         name: "Proyecto Dos",
         description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur veniam fugiat labore nihil suscipit totam. Ea, molestiae rerum quibusdam reprehenderit vitae nostrum aperiam numquam laudantium, laborum possimus exercitationem dolores nobis. 2",
         projectUrl : "#",
@@ -75,16 +77,18 @@ let projectsInfo = {
 };
 
 let firstProject = document.querySelector("#first-one-project");
-let firstProjectName = firstProject.firstElementChild;
-let firstProjectDescription = firstProjectName.nextElementSibling;
-let firstProjectLink = firstProjectDescription.nextElementSibling;
-let firstProjectCode = firstProjectLink.nextElementSibling;
-
+let firstProjectImage = firstProject.children[0];
+let firstProjectName = firstProject.children[1];
+let firstProjectDescription = firstProject.children[2];
+let firstProjectLink = firstProject.children[3];
+let firstProjectCode = firstProject.children[4];
+  
 let secondProject = document.querySelector("#second-one-project");
-let secondProjectName = secondProject.firstElementChild;
-let secondProjectDescription = secondProjectName.nextElementSibling;
-let secondProjectLink = secondProjectDescription.nextElementSibling;
-let secondProjectCode = secondProjectLink.nextElementSibling;
+let secondProjectImage = secondProject.children[0];
+let secondProjectName = secondProject.children[1];
+let secondProjectDescription = secondProject.children[2];
+let secondProjectLink = secondProject.children[3];
+let secondProjectCode = secondProject.children[4];
 
 let lastOption = document.querySelector("#last-option");
 lastOption.innerHTML = "<<"
@@ -96,11 +100,13 @@ const showProjects = (which, button, lastOpt) => {
     switch(which){
         case 1:
         lastOption.style.display="none";
+        firstProjectImage.setAttribute("src", projectsInfo.project01.imgSrc);
         firstProjectName.innerHTML = projectsInfo.project01.name;
         firstProjectDescription.innerHTML = projectsInfo.project01.description;
         firstProjectLink.setAttribute("href", projectsInfo.project01.projectUrl);
         firstProjectCode.setAttribute("href", projectsInfo.project01.projectCode);
 
+        secondProjectImage.setAttribute("src", projectsInfo.project02.imgSrc);
         secondProjectName.innerHTML = projectsInfo.project02.name;
         secondProjectDescription.innerHTML = projectsInfo.project02.description;
         secondProjectLink.setAttribute("href", projectsInfo.project02.projectUrl);
