@@ -1,7 +1,7 @@
 let projectsInfo = {
     project01 : {
-        name: "Proyecto Uno",
-        description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur veniam fugiat labore nihil suscipit totam. Ea, molestiae rerum quibusdam reprehenderit vitae nostrum aperiam numquam laudantium, laborum possimus exercitationem dolores nobis. 1",
+        name: "Creador de animales",
+        description : "Un formulario que le permite al usuario crear un animal a partir de ciertas opciones predeterminadas. Se utiliza un constructor para crear los objetos de cada animal, y estos son almacenados en un Array bi-dimensional.",
         projectUrl : "#",
         projectCode : "#"
     },
