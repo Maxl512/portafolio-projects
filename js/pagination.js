@@ -3,15 +3,15 @@ let projectsInfo = {
         imgSrc : "image/dog.png",
         name: "Creador de animales",
         description : "Un formulario que le permite al usuario crear un animal a partir de ciertas opciones predeterminadas. Se utiliza un constructor para crear los objetos de cada animal, y estos son almacenados en un Array bi-dimensional.",
-        projectUrl : "#",
-        projectCode : "#"
+        projectUrl : "https://github.com/Maxl512/Creador-de-animales.git",
+        projectCode : "https://github.com/Maxl512/Creador-de-animales/archive/refs/heads/main.zip"
     },
     project02 : {
-        imgSrc : "image/envelope.png",
-        name: "Proyecto Dos",
-        description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur veniam fugiat labore nihil suscipit totam. Ea, molestiae rerum quibusdam reprehenderit vitae nostrum aperiam numquam laudantium, laborum possimus exercitationem dolores nobis. 2",
-        projectUrl : "#",
-        projectCode : "#"
+        imgSrc : "image/product-gallery.jpg",
+        name: "Galeria de Productos",
+        description : "Es una simple galeria en donde se pueden mostrar varios productos, los cuales estan ordenados por categorias. Dichos productos son objetos almacenados en un array. Tambien se pueden crear mas productos, necesitandose una imagen, nombre y descripcion del producto que se creara, ademas del precio y el numero de serie.",
+        projectUrl : "https://github.com/Maxl512/Products-gallery.git",
+        projectCode : "https://github.com/Maxl512/Products-gallery/archive/refs/heads/main.zip"
     },
     project03 : {
         name: "Proyecto Tres",
