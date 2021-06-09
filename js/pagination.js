@@ -14,12 +14,14 @@ let projectsInfo = {
         projectCode : "https://github.com/Maxl512/Products-gallery/archive/refs/heads/main.zip"
     },
     project03 : {
+        imgSrc : "image/heart.png",
         name: "Pequeña animacion",
         description : "Esta es una animacion hecha con javascript, es responsive y solo puede ser vista si el dispositivo esta en modo landscape o si es una computadora",
         projectUrl : "https://github.com/Maxl512/animation-little-history.git",
         projectCode : "https://github.com/Maxl512/Products-gallery/archive/refs/heads/main.zip"
     },
     project04 : {
+        imgSrc : "image/product-gallery.jpg",
         name: "Proyecto Cuatro",
         description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur veniam fugiat labore nihil suscipit totam. Ea, molestiae rerum quibusdam reprehenderit vitae nostrum aperiam numquam laudantium, laborum possimus exercitationem dolores nobis. 4",
         projectUrl : "#",
@@ -121,11 +123,15 @@ const showProjects = (which, button, lastOpt) => {
 
         case 2:
         lastOption.style.display = "inline-block";
+        
+        firstProjectImage.setAttribute("src", projectsInfo.project03.imgSrc);
         firstProjectName.innerHTML = projectsInfo.project03.name;
         firstProjectDescription.innerHTML = projectsInfo.project03.description;
         firstProjectLink.setAttribute("href", projectsInfo.project03.projectUrl);
         firstProjectCode.setAttribute("href", projectsInfo.project03.projectCode);
 
+        
+        secondProjectImage.setAttribute("src", projectsInfo.project04.imgSrc);
         secondProjectName.innerHTML = projectsInfo.project04.name;
         secondProjectDescription.innerHTML = projectsInfo.project04.description;
         secondProjectLink.setAttribute("href", projectsInfo.project04.projectUrl);
@@ -210,11 +216,15 @@ const showProjects = (which, button, lastOpt) => {
 
         case 1:
         lastOption.style.display="none";
+        
+        firstProjectImage.setAttribute("src", projectsInfo.project01.imgSrc);
         firstProjectName.innerHTML = projectsInfo.project01.name;
         firstProjectDescription.innerHTML = projectsInfo.project01.description;
         firstProjectLink.setAttribute("href", projectsInfo.project01.projectUrl);
         firstProjectCode.setAttribute("href", projectsInfo.project01.projectCode);
 
+        
+        secondProjectImage.setAttribute("src", projectsInfo.project02.imgSrc);
         secondProjectName.innerHTML = projectsInfo.project02.name;
         secondProjectDescription.innerHTML = projectsInfo.project02.description;
         secondProjectLink.setAttribute("href", projectsInfo.project02.projectUrl);
