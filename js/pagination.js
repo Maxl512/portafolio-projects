@@ -14,10 +14,10 @@ let projectsInfo = {
         projectCode : "https://github.com/Maxl512/Products-gallery/archive/refs/heads/main.zip"
     },
     project03 : {
-        name: "Proyecto Tres",
-        description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur veniam fugiat labore nihil suscipit totam. Ea, molestiae rerum quibusdam reprehenderit vitae nostrum aperiam numquam laudantium, laborum possimus exercitationem dolores nobis. 3",
-        projectUrl : "#",
-        projectCode : "#"
+        name: "Pequeña animacion",
+        description : "Esta es una animacion hecha con javascript, es responsive y solo puede ser vista si el dispositivo esta en modo landscape o si es una computadora",
+        projectUrl : "https://github.com/Maxl512/animation-little-history.git",
+        projectCode : "https://github.com/Maxl512/Products-gallery/archive/refs/heads/main.zip"
     },
     project04 : {
         name: "Proyecto Cuatro",
